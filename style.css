@@ -108,3 +108,8 @@ nav>.item:hover{
     background-color: #00AFDB;
     border-radius: 50px;
 }
+#s2{
+    padding: 120px 270px 140px 268px;
+    display: grid;
+    height: 582px;
+}
