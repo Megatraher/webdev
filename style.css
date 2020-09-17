@@ -1,5 +1,4 @@
 body{
-    position: relative;
     margin: 0;
     width: 1600px;
     font-family: Roboto;
@@ -8,18 +7,40 @@ body{
     font-weight: 400;
     color: #FFFFFF;
 }
+h1{
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 63px;
+    line-height: 75px;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+
+}
 #s1{
+    text-align: center;
     height: 744px;
     width: 100%;
-    position: absolute;
     background:url(assets/bg-image-wrapper.png);
     
 }
+#s1>header{
+    height: 57px; 
+    padding-top: 38px;
+    margin-bottom: 135px; 
+}
 
 #nav1{
-    display: flex;
-    
-    margin: 38px 516px 0px 502px
+    display: flex;    
+    margin: 0px 516px 0px 502px
 }
 nav>.item{
     height: 20px;
@@ -28,7 +49,6 @@ nav>.item{
 }
 nav>.item-active{
     opacity: 1;
-
     border-bottom: 1px solid;
 }
 nav>.item:hover{
@@ -52,10 +72,37 @@ nav>.item:hover{
 .item-space4{
     width: 83px;
 }
+.h1-container{
+    margin-left: 4px;
+}
+.p-container{
+    padding-top: 4px;
+    margin-bottom: 29px;
+}
+.gs-button{
+    font-weight: 450;
+    padding-left: 5px;
+    background-color:#00AFDB ;
+    width: 154px;
+    height: 16px;
+    padding: 13px 15px 17px 15px;
+    margin: 0 auto;
+}
+.gs-button:hover{
+    background-color:white ;
+    color:#00AFDB ;
+    cursor: pointer;
+}
+.gs-container{
+    margin-left: -2px;
+}
 #s2{
-    position: absolute;
-    top: 744px;
+    margin: 0;
     background-color: teal;
     height: 842px;
     width: 100%;
+}
+.mar{
+    
+    margin: 40px;
 }
