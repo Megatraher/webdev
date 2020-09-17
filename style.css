@@ -110,6 +110,8 @@ nav>.item:hover{
 }
 #s2{
     padding: 120px 270px 140px 268px;
-    display: grid;
     height: 582px;
+    display: grid;
+    /* grid-template-rows: ;
+    grid-template-columns: 1fr 1fr 1fr; */
 }
