@@ -156,3 +156,41 @@ nav>.item:hover{
     margin-top: 30px;
     text-align: center;
 }
+.b2:hover{
+    border: 1px solid #00AFDB;
+    padding: 12.5px 14px 15.5px 14px;
+}
+#s3{
+    height: 504px;
+    padding: 77px 0 140px 268px;
+    display: grid;
+    grid-template-areas: 
+        "n n n nav3 n2"
+        "n3 n3 n3 n3 n3 "
+        "c3 n4 slider3 slider3 slider3";
+    grid-template-rows:25px 18px 244px;
+    grid-template-columns: 298px 139px 544px 83px 271px;
+}
+.slider3{
+    grid-area: slider3;
+    background-color: wheat;
+}
+.nav3{
+    grid-area: nav3;
+    background-color: turquoise;
+    font-family: Roboto;
+
+    font-size: 18px;
+    line-height: 25px;
+
+
+    color: #373737;
+}
+.content3{
+    grid-area: c3;
+    background-color: thistle;
+}
+#l3{
+    margin-top: 6px;
+    margin-left: 1px;
+}
