@@ -15,6 +15,18 @@ h1{
     line-height: 75px;
     margin: 0;
 }
+h3{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+    color: #373737;
+    }
 p{
     font-size: 18px;
     font-style: normal;
@@ -76,7 +88,7 @@ nav>.item:hover{
 }
 .p-container{
     padding-top: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
 }
 .gs-button{
     font-weight: 450;
@@ -84,7 +96,7 @@ nav>.item:hover{
     background-color:#00AFDB ;
     width: 154px;
     height: 16px;
-    padding: 14px 15px 16px 15px;
+    padding: 13.5px 15px 16.5px 15px;
     margin: 0 auto;
 }
 .gs-button:hover{
@@ -102,16 +114,45 @@ nav>.item:hover{
 }
 .soc>.img{
     border-radius: 50px;
-    padding: 0 13.3px;
+    padding: 0 15px;
 }
 .soc>.img>img:hover{
     background-color: #00AFDB;
     border-radius: 50px;
 }
+.content2{
+    text-align: start;
+    grid-area: text2;
+}
+.img-wrap2{
+    grid-area: img2;
+}
 #s2{
     padding: 120px 270px 140px 268px;
     height: 582px;
     display: grid;
-    /* grid-template-rows: ;
-    grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-areas: 
+        "noth1 noth img2"
+        "text2 noth img2"
+        "noth2 noth img2";
+    grid-template-rows:175px 233px 174px;
+    grid-template-columns: 407px 248px 408px;
+    
+    
+}
+.p2{
+    padding-top: 7px;
+    text-align: start;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+
+}
+.b2{
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
 }
