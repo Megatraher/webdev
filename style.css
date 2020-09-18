@@ -169,19 +169,20 @@ nav>.item:hover{
         "n3 n3 n3 n3 n3 "
         "c3 n4 slider3 slider3 slider3";
     grid-template-rows:25px 18px 244px;
-    grid-template-columns: 298px 139px 544px 83px 271px;
+    grid-template-columns: 298px 139px 545px 83px 270px;
 }
 .slider3{
     grid-area: slider3;
     background-color: wheat;
 }
 .nav3{
+    padding-top: 1px;
     grid-area: nav3;
-    background-color: turquoise;
     font-family: Roboto;
-
+    display: flex;
     font-size: 18px;
     line-height: 25px;
+    justify-content: space-between;
 
 
     color: #373737;
@@ -190,7 +191,16 @@ nav>.item:hover{
     grid-area: c3;
     background-color: thistle;
 }
-#l3{
-    margin-top: 6px;
-    margin-left: 1px;
+.nav3-info{
+    height: 24px;
+    display: block;
+    letter-spacing: 4.5px;
+    margin-left: 5px;
+
+}
+.nav3-info>span{
+    margin-top: -1px;
+    display: block;
+    
+
 }
