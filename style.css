@@ -26,7 +26,7 @@ h3{
     letter-spacing: 1px;
     text-transform: uppercase;    
     color: #373737;
-    }
+}
 p{
     font-size: 18px;
     font-style: normal;
@@ -233,4 +233,51 @@ nav>.item:hover{
     line-height: 20px;
     color: #4E4E4E;
     margin: -4px 0 0 -1px;
+}
+#s4{
+    padding: 120px 378px 140px 269px;
+    height: 582px;
+    display: grid;
+    grid-template-columns: 407px 139px 407px;
+    grid-template-rows: 199px 184px 199px;
+    grid-template-areas:
+        "img4 n n1"
+        "img4 n c4"
+        "img4 n n2";;
+}
+.content4{
+    grid-area: c4;
+}
+.content4>h3{
+    margin-top: -0.5px;
+    margin-bottom: 21px;
+}
+.content4>p{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin-bottom: 29.5px; 
+}
+.content4>.button4{
+    width: 150px;
+    text-align: center;
+    font-weight: 450;
+    padding-left: 5px;
+    background-color:#00AFDB ;
+    height: 16px;
+    padding: 13.5px 15px 16.5px 15px;
+    margin: 0;
+    margin-left: 0;
+}
+
+.content4>.button4:hover{
+    color:  #00AFDB;
+    background-color: white;
+    border: 1px solid #00AFDB;
+    padding: 12.5px 14px 15.5px 14px;
+    cursor: pointer;
 }
