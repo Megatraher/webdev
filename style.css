@@ -281,3 +281,63 @@ nav>.item:hover{
     padding: 12.5px 14px 15.5px 14px;
     cursor: pointer;
 }
+#s5{
+    background-image: url(assets/image-bg5.png);
+    padding: 217px 597px 277px 597px;
+    height: 104px;
+    display: grid;
+    grid-template-rows: 28px 30px 46px;
+    grid-template-areas: 
+        "h5"
+        "n"
+        "f5";
+}
+.h5>h3{
+    grid-area: h5;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+.f5{
+    overflow: hidden;
+    display: flex;
+    grid-area: f5;
+    background-color: white;
+}
+.f5>#email{    
+    font-size: 14px;
+    line-height: 20px;
+    color: #373737;
+    padding: 0;
+    padding-left: 24px;
+    border: none;
+    height: 100%;
+    width: 316px;
+}
+#email:focus{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+#email::placeholder{
+    color: #373737;
+}
+
+.f5>.b5{
+    background-color: #00AFDB;
+    width: 66px;    
+}
+.f5:invalid>.b5 {
+    background-color:red;
+}  
+.f5:valid>.b5{
+    background: rgb(147, 255, 133);
+}
+.f5>.b5:hover{
+    cursor: pointer;
+}
+.f5>.b5>img{
+    margin: 16px 0 0 25px ;
+}
