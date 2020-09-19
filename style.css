@@ -161,7 +161,8 @@ nav>.item:hover{
     padding: 12.5px 14px 15.5px 14px;
 }
 #s3{
-    height: 504px;
+    background: #F5F6F7;
+    height: 287px;
     padding: 77px 0 140px 268px;
     display: grid;
     grid-template-areas: 
@@ -169,12 +170,21 @@ nav>.item:hover{
         "n3 n3 n3 n3 n3 "
         "c3 n4 slider3 slider3 slider3";
     grid-template-rows:25px 18px 244px;
-    grid-template-columns: 298px 139px 545px 83px 270px;
+    grid-template-columns: 298px 139px 545px 83px 267px;
 }
 .slider3{
+    overflow: hidden;
+    display: flex;
     grid-area: slider3;
-    background-color: wheat;
 }
+.slider3>img{
+    margin-left: 1px;
+    margin-right: 29px;
+}
+.slider3:last-child{
+    margin-right: 0px;
+}
+
 .nav3{
     padding-top: 1px;
     grid-area: nav3;
@@ -183,13 +193,7 @@ nav>.item:hover{
     font-size: 18px;
     line-height: 25px;
     justify-content: space-between;
-
-
     color: #373737;
-}
-.content3{
-    grid-area: c3;
-    background-color: thistle;
 }
 .nav3-info{
     height: 24px;
@@ -201,6 +205,32 @@ nav>.item:hover{
 .nav3-info>span{
     margin-top: -1px;
     display: block;
-    
-
+}
+#l3:hover,#r3:hover{ 
+    cursor: pointer;
+    background-color:  #00AFDB;
+    border-radius: 100%;
+}
+.content3{
+    text-align: center;
+    grid-area: c3;
+    padding-top: 35px;
+    padding-left: 3px;
+}
+.content3>h4{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin: 14.5px 0 14.5px 2px;
+}
+.content3>p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin: -4px 0 0 -1px;
 }
