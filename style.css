@@ -117,6 +117,7 @@ nav>.item:hover{
     padding: 0 15px;
 }
 .soc>.img>img:hover{
+    cursor: pointer;
     background-color: #00AFDB;
     border-radius: 50px;
 }
@@ -411,7 +412,49 @@ nav>.item:hover{
 }
 .buttons6>*:hover>.tb6{
     background:#0088aa;
+    cursor: pointer;
 }
 .buttons6>*:hover>.ib6{
     background:#006a85;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    padding: 73px 159px 91px 160px;
+    display: grid;
+    grid-template-columns: 236px 382px 44px 448px 171px;
+    grid-template-areas: "nav7 n i7 n2 c7";
+}
+
+nav{
+    grid-area: nav7;
+    display: flex;
+    justify-content: space-between;
+}
+footer>nav>div + div:before{
+    color: gray;
+    font-size: 9px;
+    line-height: 1px;
+    padding-left: 19.5px;
+    padding-right: 19px;
+    content: "|";
+    text-align: center;
+}
+footer>nav>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer>.copyr{
+    grid-area: c7;
+    color: #818181;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+footer>.wr{
+    grid-area: i7;
+}
+footer>.wr>img{
+    margin-top: -13px;
 }
